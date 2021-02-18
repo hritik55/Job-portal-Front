@@ -1,0 +1,42 @@
+.container-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: #EE836B;
+    width: 12em;
+    padding: 12px;
+    margin: 0 0px 12px 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card > .primary-info > h3 {
+    color: #fff;
+}
+
+p.location {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-family: 'Lato';
+    align-self: center;
+    padding: 6px 0;
+}
+
+.icon-location {
+    vertical-align: text-bottom;
+}
+
+p.location span {
+    margin-left: 5px;
+}
+
+p.company, p.experience {
+    color: #fff;
+}
+
+.card h4 {
+    font-family: 'Lato';
+    font-weight: 300;
+}

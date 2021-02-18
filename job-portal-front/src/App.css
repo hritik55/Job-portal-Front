@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&family=Roboto&display=swap');
+
+/* reset */
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #2199DF;
+  text-decoration: unset;
+}
+
+ul {
+  margin-left: 1.5rem;
+  list-style: none;
+}
+
+button, 
+input[type="submit"] {
+  border: none;
+  background: none;
+  color: unset;
+  cursor: pointer;
+}
+
+ul, ol {
+  margin: 1em 0;
+}
+
+/* header */
+
+#header {
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF4F2;
+}
+
+#header .logo{
+  color: #03363D;
+  padding: 0 6em;
+}
+
+button#register {
+  background-color: #03363D;
+  color: #fff;
+  padding: 1em;
+  width: 6em;
+  margin-left: 20px;
+}
+
+button#register:hover {
+  background-color: unset;
+  color:  #03363D;
+  border: 1px solid #03363D;
+}
+
+button#login {
+  background-color: none;
+  color: #03363D;
+  padding: 1em;
+  width: 6em;
+}
+
+
+button#login:hover {
+  border: 1px solid #03363D;
+}
+
+.page {
+  padding-left: 5rem;
+  background-color: #FFF4F2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 22em;
+}
+
+.form label {
+  margin-bottom: 5px;
+}
+
+.form input, select{
+  border: 1px solid #777777;
+  margin: 0px 0 20px 0;
+  padding: 10px 10px;
+}
+
+.form input[type="submit"] {
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #03363D;
+  border: none;
+}
+
+.form input[type="submit"]:hover {
+  background-color: unset;
+  border: 1px solid #03363D;
+  color: #03363D;
+}
+
+
+
+
+
+
+

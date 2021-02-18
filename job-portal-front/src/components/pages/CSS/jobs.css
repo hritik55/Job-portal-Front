@@ -1,0 +1,46 @@
+.job {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 10px;
+    color: #03363D;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.job img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.job-card {
+    background-color: #fff;
+    width: 34em;
+    padding: 12px;
+    margin: 0 0px 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.job-card > .action-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: 'Lato';
+    color: #6D9DC5;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto';
+}
+
+p {
+    font-family: 'Roboto';
+    color: rgb(160, 160, 160);
+}
